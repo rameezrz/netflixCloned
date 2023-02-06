@@ -20,11 +20,7 @@ body{
    position: relative;
 }
 
-.line{
-    padding: 50px 15% 10px;
-    border-top: 6px solid #333;
-    color: #777;
-}
+
 
 nav{
     display: flex;
@@ -114,10 +110,51 @@ nav button{
 
 /*---------------------Features---------------*/
 .features{
-    padding: 50px 12%;
+    margin-top: -50px;
+    padding: 0 12% 50px;
     font-size: 22px;
+    position: relative;
 
 }
+
+.line{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+
+.line-2{
+    border-top: 6px solid #333;
+    color: #777;
+    width: 100%;
+    position: absolute;
+    top: 1230px;
+}
+
+.line-3{
+    border-top: 6px solid #333;
+    color: #777;
+    width: 100%;
+    position: absolute;
+    top: 1740px;
+}
+
+.line-4{
+    border-top: 6px solid #333;
+    color: #777;
+    width: 100%;
+    position: absolute;
+    top: 2230px;
+}
+
+.line-5{
+    border-top: 6px solid #333;
+    color: #777;
+    width: 100%;
+    position: absolute;
+    top: 2750px;
+}
+
 
 .row{
     display: flex;
